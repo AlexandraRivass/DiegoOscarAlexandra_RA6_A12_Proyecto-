@@ -38,6 +38,7 @@
       <button class="dtab it active" onclick="showDiag('d-it',this)"><i class="fas fa-desktop"></i> Gestión IT</button>
       <button class="dtab fam" onclick="showDiag('d-fam',this)"><i class="fas fa-users"></i> Familias</button>
       <button class="dtab doc" onclick="showDiag('d-doc',this)"><i class="fas fa-folder-open"></i> Documental</button>
+      <button class="dtab rrhh" onclick="showDiag('d-rrhh',this)"><i class="fas fa-user-tie"></i> RRHH</button>
     </div>
     <!-- IT -->
     <div class="diag-panel active" id="d-it">
@@ -129,6 +130,28 @@
           <div class="p-body">
             <h4>Sin sistema documental centralizado</h4>
             <p>Cada departamento guarda documentos de manera diferente. Sin versiones actualizadas, sin posibilidad de colaboración y con duplicados por todas partes.</p>
+            <span class="severity sev-high"><i class="fas fa-exclamation-triangle"></i> Gravedad alta</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="diag-panel" id="d-rrhh">
+      <div class="problem-list">
+        <div class="problem-item fade-in">
+          <div class="p-icon"><i class="fas fa-shield-alt"></i></div>
+          <div class="p-body">
+            <h4>Problemas de seguridad en los datos</h4>
+            <p>Todos los datos se guardan en el ordenador central del colegio en la secretaría, haciéndolo un punto fácil para que cualquier atacante pueda robar la información de los empleados.</p>
+            <span class="severity sev-high"><i class="fas fa-exclamation-triangle"></i> Gravedad alta</span>
+          </div>
+        </div>
+        <div class="problem-item fade-in">
+          <div class="p-icon"><i class="fas fa-user-edit"></i></div>
+          <div class="p-body">
+            <h4>Alta manual de empleados</h4>
+            <p>Los empleados tienen que darse de alta en el sistema ellos mismos, sin ningún proceso automatizado ni supervisado, lo que genera errores y falta de control.</p>
             <span class="severity sev-high"><i class="fas fa-exclamation-triangle"></i> Gravedad alta</span>
           </div>
         </div>
